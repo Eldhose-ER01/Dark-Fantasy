@@ -1,0 +1,295 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ body{
+   margin: 0;
+    padding: 0;
+ }
+ .container{
+   width: 100%;
+   height: 100vh;
+   display: flex;
+ }
+ .main{
+   width: 100%;
+   height: 100vh;
+   background-size: cover;
+   display: flex;
+   background-image: url(image/creationbanner.jpg);;
+ }
+  .navbar{
+   flex: 2;
+   
+  }
+  .logo{
+   padding-left: 90px;
+   padding-top: 24px;
+  }
+  
+  .nav{
+   width: 60%;
+   height: 100px;  
+  }
+  .icon{
+   flex: 2;
+   height: 100px;   
+ }
+.nav a{
+   text-decoration: none;
+   display: flex;
+}
+.nav li{
+   list-style: none;
+   margin-right: 25px;
+   margin-top: 30px;
+   font-size: 19px;
+   font-family: 'Lato', sans-serif;
+}
+.nav ul {
+   display: flex;
+}
+.menu{
+   color:#fecf73;
+}
+.menu1{
+   color: #ffff;
+}
+.menu1:hover{
+   color: #fecf73;
+   transition: 0.4;
+}
+ .icon i{
+   font-size: 24px;
+   color: white;
+   padding-left: 10px;
+   padding-top: 30px;
+
+}
+.icon1{
+   display: inline-flex;
+   padding-left: 40px;
+   vertical-align: middle;
+}
+.icon i:hover{
+   color: rgb(71, 71, 128);
+}
+.icon1 img{
+   width: 49px;
+}
+.main-logo{
+   position: absolute;
+   margin-top: 110px;
+   display: flex;
+   width: 100%;
+   flex-direction: row;
+   justify-content: center;
+   
+}
+.para{
+   width: 40%;
+   height: 100px;
+   color:#ffff;
+   position: absolute;
+   display: flex;
+   justify-content: center;
+   top: 80%;
+   left: 50%;
+   transform:translate(-50%,-50%);
+   text-align: center;
+   font-family: 'Lato', sans-serif;
+   font-size: 17px;
+   line-height: 2;
+   font-weight: 300;
+}
+
+.container1{
+   width: 100%;
+   background-image: url(./image/recipes_bg.jpg);
+   background-size: cover;
+   height: 1100px;
+}
+.header{
+   display: flex;
+}
+.img1{
+   flex: 1;
+   text-align: right;
+   padding-top: 70px;
+
+
+}
+.hed2{
+   flex:1;
+  
+
+}
+h1{
+   padding-top: 32px;
+   font-size: 28px;
+   font-family: 'Lato', sans-serif;
+   font-weight: 300;
+   color: #fecf73;
+   padding-top: 108px;
+   margin-left: -31px;
+}
+.he3{
+   display: flex;
+   margin-top: 50px;
+   justify-content: center;
+   text-align: center;
+}
+
+
+.pad {
+   padding: 0px 50px 0px 50px;
+
+}
+.mii{
+  
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 24px;
+   column-gap: 21px; 
+   width: 0;
+   margin-left: 100px;
+ }
+
+.mi
+{
+   width: 50%;
+
+}
+.d1{
+   padding-left: 178px;
+   padding-top: 32px;
+}
+.ic{
+   display: flex;
+
+   
+}
+.ic1{
+   font-size: 16px;
+    margin-bottom: 0;
+    color: #ffffff;
+    padding-left: 5px;
+    padding-top: 9px;
+
+}
+.ic1 p{
+   width: 250px;
+   font-family:'Lato', sans-serif; 
+
+}
+.ic img{
+   width: 35px;
+   height: 35px;
+padding-top: 4px;
+}
+.button-last{
+   width: 84%;
+   text-align: center;
+   padding: 93px 0;
+ }
+
+ .button-last button{
+   width: 100px;
+   height: 30px;
+   color: white;
+   background-color: black;
+   border-radius: 5px;
+ }
+.button-last button:hover{
+color: rgb(3, 19, 16);
+width: 100px;
+height:30px ;
+background-color: rgb(243, 251, 251);
+}
+.section-3{
+   width: 100%;
+   height: 800px;
+   background-image: url(./image/range_bg.png);
+   background-size: cover;
+}
+.sec3-img img{
+   margin-top: 240px;
+   padding-left: 155px;
+}
+.sec3-icon{
+   display: flex;
+}
+.sec-4{
+   display: flex;
+}
+.sec3-img{
+   flex: 1;
+}
+.sec3-icon{
+   flex: 1;
+}
+.icon-style{
+   width: 100px;
+}
+.icon-style img{
+   width: 80px;
+   padding-top: 230px;
+   padding-left: 150px;
+}
+.conten2{
+   flex: 1;
+   margin: 146px;
+   margin-left:-100px;
+}
+.delight{
+   color: white;
+   margin-top: 4px;
+   font-family:'Lato', sans-serif;
+   font-size: 18px;
+   text-align: center;
+   margin-right: 82;
+}
+.conten2 p{
+   padding-right: 40px;
+   padding-top: 35px;
+}
+.helo{
+   padding-left: 74px;
+
+}
+.btn2{
+   width: 110px;
+   height: 30px;
+   margin-left: 80px;
+   margin-top: 80px;
+   background-color: black;
+   color:white;
+   border-radius: 5px;
+   
+} button:hover{
+color: black;
+background-color:white;
+}
+.footer
+{
+   width: 100%;
+   height: 90px;
+   background-color: black;
+}
+.footer1 ul{
+   color: white;
+   display: flex;
+   list-style: none;
+   padding-left: 77px;
+   padding-top: 43px;
+   
+}
+.footer1 li{
+   padding-left: 15px;
+   font-family:'Lato', sans-serif;
+   font-size: 17px;
+}
+.footer1 li:hover{
+   color: #fecf73;
+}
