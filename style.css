@@ -200,9 +200,9 @@ padding-top: 4px;
    color: white;
    background-color: black;
    border-radius: 5px;
-   border:solid 2px white;
-   box-sizing:12px;
-   font-weight:bold;
+   border: solid 2px white;
+   box-sizing: 12px;
+   font-weight: bold;
  }
 .button-last button:hover{
 color: rgb(3, 19, 16);
