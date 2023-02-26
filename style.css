@@ -194,12 +194,15 @@ padding-top: 4px;
    padding: 93px 0;
  }
 
- .button-last button{
+ button{
    width: 100px;
    height: 30px;
    color: white;
    background-color: black;
    border-radius: 5px;
+   border:solid 2px white;
+   box-sizing:12px;
+   font-weight:bold;
  }
 .button-last button:hover{
 color: rgb(3, 19, 16);
